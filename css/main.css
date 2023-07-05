@@ -1,14 +1,108 @@
-.wrapper
-{
-    width: 90% ;
+.wrapper {
+    width: 90%;
     margin: 10px auto;
 }
 
 
 /* header*/
 
-.header
-{
+.header {
     background-color: rgb(18, 32, 32);
-    border-radius: 5px 5px 0 0;
+    border-radius: 10px 10px 0 0;
+    color: #fff;
+}
+
+.header a {
+    color: rgb(146, 145, 145);
+    transition: all 0.5s linear;
+}
+
+.topinfo {
+    border-bottom: 1px solid #154f61;
+
+    justify-content: space-between;
+
+}
+
+
+
+.accountlink {
+    display: block;
+    padding: 5px 12px;
+    font-size: 25px;
+
+
+}
+
+.accountlink>i {
+    padding-left: 5px;
+    vertical-align: middle;
+}
+
+.accountlink:hover {
+    color: #fff;
+}
+
+.language {
+    padding: 3px 0 0 10px;
+    font-size: 25px;
+}
+
+.fa-icon {
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+}
+
+.header-info {
+    padding: 20px;
+}
+
+.searchbox {
+    flex-grow: 1;
+    height: 40px;
+    justify-content: center;
+}
+
+.search-select {
+    border: none;
+    padding: 8px 15px;
+    border-radius: 0 15px 15px 0;
+}
+
+.search-input {
+    border: none;
+    padding: 8px 15px;
+}
+
+
+.search-link {
+    background-color: rgb(221, 141, 36);
+    padding: 10px 14px;
+    color: #fff !important;
+    border-radius: 20px 0 0 20px;
+}
+
+
+.contactus {
+    margin: 0 2em;
+    font-size: 0.8em;
+}
+
+.m-icon {
+    font-size: 2.5em;
+    margin: 0 .4em;
+
+}
+
+.mm-icon {
+    padding: 5px;
+    background-color: rgb(221, 141, 36);
+    vertical-align: middle;
+    border-radius: 20px;
+}
+
+.cart {
+    font-size: 0.8em;
+
 }
