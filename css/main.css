@@ -1,0 +1,14 @@
+.wrapper
+{
+    width: 90% ;
+    margin: 10px auto;
+}
+
+
+/* header*/
+
+.header
+{
+    background-color: rgb(18, 32, 32);
+    border-radius: 5px 5px 0 0;
+}
