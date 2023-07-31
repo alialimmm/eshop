@@ -1,0 +1,55 @@
+.btn{
+    border: 1px solid rgb(195, 209, 5);
+    padding: 5px 8px;
+    color: rgb(85, 85, 85);
+    transition: all 1.3s linear;
+}
+.btn-solide:hover{
+    background-color:rgb(148, 85, 3);
+    color: #fff;
+    border-color: rgb(148, 85, 3);
+    
+}
+.btn-reg:hover{
+    
+    color: rgb(148, 85, 3);
+    border-color: rgb(148, 85, 3);
+
+}
+
+.btn-ts1
+{
+background-color:rgb(148, 85, 3);
+color: #fff;
+border-color: #fff;
+height: 50px;
+border-radius: 50%;
+
+}
+
+
+
+
+/* effects */
+
+
+.overly-image
+{
+    position: relative;
+}
+
+.overly-image::before
+{
+   position: absolute; 
+   content: ' ';
+   width: 100%;
+   height: 100%;
+   background-color: rgb(165, 1, 28);
+   opacity:.3;
+   transform: scaleX(0);
+   transition: all .4s linear;
+}
+.overly-image:hover::before
+{
+    transform: scaleX(1);
+}

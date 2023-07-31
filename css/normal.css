@@ -25,6 +25,7 @@ list-style: none;
 a
 {
 text-decoration: none;
+transition: all .5s linear;
 }
 h2
 {
