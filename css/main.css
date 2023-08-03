@@ -381,3 +381,115 @@
 {
     right: 30px;
 }
+
+.hot-sale-ul{
+    flex-wrap: wrap;
+}
+.hot-sale-item
+{
+    width: 33%;
+    flex-grow: 1;
+}
+.hot-sale-detale
+{
+    margin: 10px;
+    border: 4px solid royalblue;
+}
+.hot-sale-img
+{
+    width:200px;
+    height: 200px;
+}
+.hot-sale-img img{
+width: 100%;
+height: 100%;
+}
+.hot-sale-inf
+{
+flex-grow: 1;
+}
+.banner2{
+    height: 300px;
+}
+.hot-cat-item{
+    width: 25%;
+}
+.hot-cat-detale
+{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+border: 1px solid #ddd; 
+box-shadow:0 0 10px 0 rgb(58, 228, 7); 
+}
+.hot-cat-image
+{
+    position: relative;
+}
+.hot-cat-image .btn 
+{
+  position:absolute;  
+  bottom: 30px;
+  left: 140px;
+}
+.hot-cat-ul
+{
+    list-style:circle;
+    padding-right: 20px;
+
+}
+.hot-cat-li
+{
+    padding: 10px;
+}
+
+
+.main-footer
+{
+    border-bottom: 1px solid #154f61;
+}
+
+
+/*footer*/
+
+footer
+{
+background-color:rgb(1, 167, 112);
+}
+.top-footer
+{
+    width: 25%;
+    
+}
+.top-footer-h4
+{
+    padding-right:40%;   
+}
+.top-footer-detale
+{
+    
+  margin: 10px;
+    padding: 0 0 15px 0;
+    padding-right:30%;
+
+}
+
+
+.m-icon2 {
+    position: relative;
+    font-size: 1.5em;
+    margin: 0 .4em;
+    bottom: 5px;
+
+}
+
+.mm-icon2 {
+    padding: 5px;
+    background-color: rgb(221, 141, 36);
+    vertical-align: middle;
+    border-radius: 20px;
+}
+.top-footer-detale-m
+{
+    overflow:unset;
+}
