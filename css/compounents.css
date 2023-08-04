@@ -1,8 +1,14 @@
+.dirl
+{direction: ltr;}
+
+.dirr{
+    direction: rtl;
+}
 .btn{
     border: 1px solid rgb(195, 209, 5);
     padding: 5px 8px;
     color: rgb(85, 85, 85);
-    transition: all 1.3s linear;
+    transition: all .8s linear;
 }
 .btn-solide:hover{
     background-color:rgb(148, 85, 3);
@@ -37,6 +43,16 @@ border-color: #fff;
 
 
 
+
+
+
+
+
+
+
+
+
+
 /* effects */
 
 
@@ -59,4 +75,27 @@ border-color: #fff;
 .overly-image:hover::before
 {
     transform: scaleX(1);
+}
+
+
+/*color*/
+.blue1
+{
+color: blue;
+}
+.red1
+{
+color: red;
+}
+.antiquewhite1
+{
+    color:rgb(223, 155, 67)
+}
+.purple1
+{
+    color: purple;
+}
+.blue2
+{
+    color: aqua;
 }

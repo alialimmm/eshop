@@ -3,6 +3,8 @@
     width: 90%;
     margin: 10px auto;
     box-shadow: 0 0 10px 0 rgb(160, 23, 8);
+    margin-bottom: -5px;
+    
 }
 
 
@@ -68,12 +70,14 @@
 }
 
 .search-select {
+    outline: none;
     border: none;
     padding: 8px 15px;
     border-radius: 0 15px 15px 0;
 }
 
 .search-input {
+    outline: none;
     border: none;
     padding: 8px 15px;
 }
@@ -286,7 +290,7 @@
     right: 0;
     width: 100%;
     opacity: 0;
-    transition: all 1s linear;
+    transition: all .4s linear;
 }
 
 .ts-productitemdetails:hover .ts-product-kif2 {
@@ -444,34 +448,57 @@ box-shadow:0 0 10px 0 rgb(58, 228, 7);
 }
 
 
-.main-footer
-{
-    border-bottom: 1px solid #154f61;
-}
+
 
 
 /*footer*/
 
 footer
 {
-background-color:rgb(1, 167, 112);
+   
+background-color:rgb(18, 32, 32);
+}
+.t-footer
+{
+    border-bottom: 1px solid #f10f07;
 }
 .top-footer
 {
     width: 25%;
+    flex-wrap: 1;
+    
     
 }
 .top-footer-h4
 {
+    
     padding-right:40%;   
 }
+.top-footer-h4 a{
+    color: #fff;
+}
+
 .top-footer-detale
 {
     
   margin: 10px;
     padding: 0 0 15px 0;
     padding-right:30%;
-
+    
+}
+.top-footer-detale a{
+    color: rgb(172, 169, 169);
+}
+.top-footer-detale a:hover
+{
+    color:#fff;
+}
+.top-footer-detale-m
+{ 
+   color: rgb(172, 169, 169); 
+   width: 200px;
+   word-break: break-all;
+   
 }
 
 
@@ -489,7 +516,71 @@ background-color:rgb(1, 167, 112);
     vertical-align: middle;
     border-radius: 20px;
 }
-.top-footer-detale-m
+.m-icon3 {
+    font-size: 2.5em;
+    margin: 0 .4em;
+}
+.m-icon3 a :hover{
+    color: #ec0b0b;
+}
+.mm-icon3 {
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+    vertical-align: middle;
+    border-radius: 20px;
+}
+
+.m-footer
 {
-    overflow:unset;
+    padding:30px 20px;
+    border-bottom: 1px solid #f10f07;
+}
+.main-footer-r{
+    margin:0 30px;
+}
+.main-footer-r
+{
+    
+    flex-wrap: 1;
+    align-items: center;
+
+}
+.main-footer-r h5
+
+{
+    font-size: 20px;
+    margin:0 20px;
+    color: rgb(172, 169, 169); 
+}
+.footer-search input
+{
+     border-radius: 0 20px 20px 0; 
+}
+
+
+.main-footer-l
+{
+    margin-right: 80px;
+}
+.main-footer-l h5
+{
+    font-size: 20px;
+    margin:14px 40px 5px 14px;
+    color: rgb(172, 169, 169);    
+}
+.f-footer{
+padding: 30px 10px;
+}
+.f-footer-t{
+    justify-content: first baseline;
+    color: #fff;
+    padding-right: 30px;
+    font-size: larger; 
+}
+
+
+.f-footer-tab-l a img
+{
+    position: absolute;
+    left: 150px;
 }
